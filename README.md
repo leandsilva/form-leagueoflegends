@@ -30,5 +30,5 @@ Página de formulário com tema do jogo League of Legends baseado no design de I
 <b>Responsividade:</b> Não<br>
 <b>Protótipo no Figma:</b> Não foi disponibilizado protótipo no Figma e/ou outra plataforma de uso de Designers, a página foi desenvolvida por meio de observação de posicionamento de elementos através da imagem disponibilizada pelo Designer no portifólio.<br>
 <b>Créditos:</b>
-- Design: [Iryna](https://dribbble.com/Alesiayuk)
+- Design: [Iryna](https://dribbble.com/Alesiayuk)<br>
 As imagens foram editadas com Phothoshop CS na versão 2022, na tentativa de se aproximar com a harmonia presente no design.
