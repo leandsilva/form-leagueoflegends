@@ -1,0 +1,192 @@
+@import url(https://db.onlinewebfonts.com/c/2fb997a24068a038df623be4124470b5?family=Centuria+bold);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --primeira-fonte: 'Centuria bold', sans-serif;
+    --segunda-fonte: 'Inter', sans-serif;
+    --primeira-cor: #131123;
+    --segunda-cor: #ffffff;
+    --terceira-cor: #7d97bb;
+    --quarta-cor: #18c0e4;
+    --quinta-cor: #2a2842;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--primeira-fonte);
+}
+
+#arma {
+    position: relative;
+    top: -130px;
+    left: 40px;
+}
+
+main {
+    display: flex;
+    width: 1900px;
+    height: 930px;
+    background-color: var(--segunda-cor);
+    justify-content: center;
+    align-items: center;
+    padding-right: 10rem;
+}
+
+.principal p {
+    color: var(--segunda-cor);
+    text-transform: uppercase;
+    position: relative;
+    top: -90px;
+    left: -90px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#second {
+    text-transform: lowercase;
+    font-size: .90rem;
+}
+
+aside {
+    width: 377px;
+    height: 634px;
+    background-color: var(--primeira-cor);
+    color: var(--segunda-cor);
+    position: relative;
+    top: -25.6px;
+}
+
+#icone {
+    position: relative;
+    left: 330px;
+    top: 15px;
+}
+
+aside h1 {
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: 3.5rem 4rem 1.5rem 4rem;
+}
+
+span {
+    color: var(--terceira-cor);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-left: 4rem;
+}
+
+label {
+    font-family: var(--segunda-fonte);
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+input {
+    font-family: var(--segunda-fonte);
+    padding: .4rem;
+    background-color: var(--quinta-cor);
+    border: none;
+}
+
+#email {
+    margin-bottom: .25rem
+}
+
+#inputemail {
+    margin-bottom: 1.1rem;
+}
+
+#password {
+    margin-bottom: .25rem
+}
+
+#inputpassword {
+    margin-bottom: 1.6rem;
+}
+
+#senha {
+    position: relative;
+    top: 12px;
+    left: 165px;
+}
+
+#olho {
+    position: relative;
+    top: -51px;
+    left: 210px;
+}
+
+.terms {
+    display: flex;
+    max-width: 250px;
+    gap: .5rem;
+}
+
+.terms label {
+    font-size: 0.57rem;
+}
+
+a {
+    color: var(--quarta-cor);
+    font-family: var(--segunda-fonte);
+}
+
+.promotions {
+    display: flex;
+    max-width: 250px;
+    gap: .5rem;
+    margin-top: 1rem;
+}
+
+.promotions label {
+    font-size: 0.57rem;
+}
+
+button {
+    width: 230px;
+    margin: 2rem 4rem;
+    padding: .4rem;
+    text-transform: uppercase;
+    color: var(--segunda-cor);
+    background-color: var(--quarta-cor);
+    border: none;
+    font-size: .7rem;
+    font-family: var(--primeira-fonte);
+    border-radius: 2px;
+}
+
+section p {
+    font-family: var(--segunda-fonte);
+    text-align: center;
+    font-size: .7rem;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    gap: 10px;
+}
+
+li {
+    list-style: none;
+    justify-content: space-between;
+}
+
+#icon {
+    width: 40px;
+    height: 40px;
+}
+
+hr {
+    margin-left: 80px;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    width: 200px;
+}
